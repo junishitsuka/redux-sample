@@ -26,7 +26,7 @@
     "redux-logger": "~2.0.4",
     "redux": "~3.0.2",
     "redux-router": "~1.0.0-beta3",
-    "react-redux": "~4.0.0",
+    "react-redux": "~3.1.0",
     "react-router": "~1.0.0-rc3",
     "react": "~0.14.0",
     "superagent": "~1.4.0",
@@ -41,5 +41,9 @@
     "entryScripts": [
       "./js/src/bundle.js"
     ]
+  },
+  "dependencies": {
+    "history": "^1.12.5",
+    "react-dom": "^0.14.0"
   }
 }
